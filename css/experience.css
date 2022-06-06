@@ -1,0 +1,104 @@
+.item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.item-description{
+    margin-left: 2.7vw;
+    margin-right: 2.7vw;
+}
+
+.container{
+    padding-bottom: 20vw;
+}
+
+#experiencia img{
+    width: 100%;   
+}
+
+#experiencia h2{
+    padding: 2rem;
+}
+
+#experiencia h3{
+    padding: 0.2rem 1rem;
+}
+
+#experiencia h4{
+    padding: 0.2rem 1rem;
+}
+
+#experiencia p{
+    font-size: 3.2vw;
+    padding: 0.2rem 1rem;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #experiencia{
+        padding: 2rem  20vw 2rem;
+    }
+    #experiencia h3{
+        font-size: 4.5vw ;
+    }
+    #experiencia p{
+        font-size: 16px;
+    }
+
+    #experiencia h3{
+        font-size: 20px;
+    }
+
+    #experiencia h4{
+        font-size: 18px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container{
+        padding-bottom: 5vw;
+    }
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #experiencia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .item-description{
+        margin: 0;
+    }
+    .item-img{
+        width: 100px;
+    }
+
+}

@@ -1,0 +1,169 @@
+#portafolio{
+    background-color: #286F6C ;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    height: 170vw;
+    margin-bottom: 50vw;
+}
+
+#portafolio h2{
+    color: white;
+}
+
+#portafolio h3{
+    align-self: flex-start;
+    padding-top: 2rem;
+}
+
+#portafolio p{
+    color: white;
+    padding-right: 2rem;
+}
+
+.img-container{
+    width: 90vw;
+    height: 80vw;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    border-radius: 5%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.description-container{
+    position: absolute;
+    top: 77vw;
+}
+
+.img-container img{
+    width: 90%;
+}
+
+.top-img{
+    top: -20vw;
+}
+
+.bottom-img{
+    top: 135vw;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #portafolio p{
+        font-size: 26px;
+        padding-right: 20vw;
+    }
+
+    #portafolio h3{
+        font-size: 4.5vw;
+    }
+
+    #portafolio{
+        padding-left: 14.5%;
+        padding-right: 14.5%;
+        height: 120vw;
+    }
+
+    .img-container{
+        width: 70vw;
+        height: 60vw;
+    }
+
+    .description-container{
+        top: 50vw;
+    }
+
+    .bottom-img{
+        top: 100vw;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .bottom-img{
+        top: 80vw;
+    }
+
+    #portafolio{
+        height: 105vw;
+    }
+
+    #portafolio h3{
+        font-size: 4.5vw;
+    }
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .img-container{
+        width: 37vw;
+        height: 32vw;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-top: 2%;
+    }
+    .top-img{
+        top: -5vw;
+        left: 5vw;
+    }
+
+    .bottom-img{
+        left: auto;
+        right: 5vw;
+        top: 30vw;
+    }
+
+    #portafolio h3{
+        font-size: 20px;
+
+    }
+
+    .description-container{
+        top: 3vw;
+        left: 50vw;
+    }
+
+    #portafolio{
+        padding-left: 14.5%;
+        padding-right: 14.5%;
+        height: 50vw;
+        margin-bottom: 15vw;
+    }
+
+}
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #portafolio{
+        padding-left: 14.5%;
+        padding-right: 14.5%;
+        height: 42vw;
+    }
+
+    .bottom-img{
+        left: auto;
+        right: 5vw;
+        top: auto;
+        bottom: -15vw;
+    }
+
+
+}

@@ -1,0 +1,192 @@
+/* my abilities */
+
+#my-abilities{
+    padding-top: 5vw;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    position: relative;
+    padding-right: 2rem;
+}
+
+#my-abilities span{
+    color:#FEF2F2
+}
+
+.card-container{
+    display: flex;
+    height: 65vw;
+    overflow-x: auto;
+    padding-left:30vw;
+    padding-right:20vw;
+    margin-left: -2rem;
+    margin-right: -2rem;
+}
+
+
+.card{
+    min-width: 50vw;
+    height: 60vw;
+    background-color: #FEF2F2;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.card p{
+    font-size: 3.2vw;
+}
+
+#my-abilities .big-circle{
+    position: absolute;
+    left:  -23vw;
+    bottom: 50.75vw;
+    border-radius: 50%;
+    width: 48vw;
+    height: 48vw;
+    background-color: #286F6C;
+    z-index: -999;
+}
+
+#my-abilities .small-circle{
+    position: absolute;
+    left:  1vw;
+    bottom: 45vw;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    background-color:#F26440;
+    z-index: -998;
+}
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* my abilities */
+    #my-abilities .big-circle{
+        left:  -23.5vw;
+        bottom: 45vw;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    /* my habilities */
+    
+    #my-abilities{
+        padding: 2rem  2rem 4rem 20vw;
+    }
+
+    #my-abilities .big-circle{
+        left:  -13vw;
+        bottom: 55vw;
+    }
+
+    .card-container{
+        margin-right: 0;
+        height: auto ;
+        padding-bottom: 2rem;
+        padding-left:39vw;
+        margin-left: -21vw;
+    }
+
+
+    .card p{
+        font-size: 16px;
+    }
+
+    .card{
+        min-width: 300px;
+        height: auto;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        box-sizing: content-box;
+    }
+
+    #my-abilities .big-circle{
+        position: absolute;
+        left:  -12vw;
+        top: -5vw;
+        bottom: auto;
+        width: 48vw;
+        height: 48vw;
+    }
+    #my-abilities .small-circle{
+        position: absolute;
+        left:  12vw;
+        bottom: auto;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #my-abilities .big-circle{
+        position: absolute;
+        left: -5vw;
+        top: 0vw;
+        bottom: auto;
+        width: 40vw;
+        height: 40vw;
+    }      
+
+    #my-abilities .small-circle{
+    position: absolute;
+    left:  20vw;
+    top: 20vw;
+    bottom: auto;
+    width: 17.5vw;
+    height: 17.5vw;
+    }
+}
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #my-abilities{
+        padding: 5rem  21vw 4rem 21vw;
+    }
+
+    #my-abilities .big-circle{
+        left:  -13vw;
+        bottom: 55vw;
+    }
+
+    .card-container{
+        padding-left:15vw;
+        padding-right: 0;
+        margin-left: 0;
+    
+    }
+
+    .card{
+        min-width: 0;
+        width: 375px;
+        height: auto;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        box-sizing: content-box;
+    }
+
+    #my-abilities .big-circle{
+        position: absolute;
+        left: -2.5vw;
+        top: -1vw;
+        bottom: auto;
+        width: 33vw;
+        height: 33vw;
+    }      
+
+    #my-abilities .small-circle{
+        position: absolute;
+        left:  20vw;
+        top: 20vw;
+        bottom: auto;
+        width: 12vw;
+        height: 12vw;
+    }
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
