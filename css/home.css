@@ -156,6 +156,7 @@ h1{
     /* Landing */
     .landing{
         height: 45vh;
+        min-height: 43vw;
     }
 
     .title{
