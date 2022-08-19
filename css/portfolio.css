@@ -41,6 +41,14 @@
     justify-content: center;
 }
 
+.img-container{
+    transition: all ease-in-out 0.5s;
+}
+
+.img-container:hover{
+    transform: scale(1.2);
+}
+
 .description-container{
     position: absolute;
     top: 77vw;
@@ -56,6 +64,11 @@
 
 .bottom-img{
     top: 135vw;
+}
+
+.github{
+    text-decoration: none;
+    color: #F26440;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)

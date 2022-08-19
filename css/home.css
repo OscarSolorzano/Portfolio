@@ -19,6 +19,9 @@ nav ul{
     list-style: none;
     text-align: center;
     padding: 0;
+    margin-bottom: -0.29rem;
+    transition: all 0.3s ease-in-out;
+    height: 15rem;
 }
 
 nav li{
@@ -40,7 +43,8 @@ nav a{
 }
 
 .hidden{
-    display: none; 
+    /* display: none; */
+    height: 0rem;
 }
 
 
@@ -69,7 +73,7 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    z-index: 999;
+    z-index: 998;
 }
 
 .social-net-cont{
@@ -87,7 +91,13 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease-in-out 0.5s;
 }
+
+.circle-margin:hover{
+    transform: scale(1.2);
+}
+
 
 .circle{
     border-radius: 50%;
@@ -117,6 +127,35 @@ h1{
     height: 65vw;
     background-color: #286F6C;
     z-index: -999;
+}
+
+.resume-btn-cnt{
+    position: absolute;
+    z-index: 999;
+    bottom: -10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-btn{
+    padding: 1rem;
+    background-color: #F26440;
+    color: #FEF2F2;
+    font-weight: 500;
+    border-radius: 10px;
+    border-style: solid;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 4vw;
+    transition: all ease-in-out 0.5s;
+}
+
+.resume-btn:hover{
+    background-color:  #FEF2F2 ;
+    color:#F26440;
 }
 
 /* // X-Small devices (portrait phones, less than 576px)
@@ -151,6 +190,10 @@ h1{
     }
     #ul-nav > :first-child a{
         font-weight: 600;
+    }
+
+    .nav ul{
+        margin-bottom: 0;
     }
 
     /* Landing */
@@ -211,6 +254,17 @@ h1{
         right: 9vw;
     }
 
+    .resume-btn-cnt{
+        width: 23vw;
+        bottom: 3vw;
+        left: 9.5vw;
+    }
+
+    .resume-btn{
+        width: 100%;
+        font-size: 2vw;
+    }
+
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -252,6 +306,9 @@ h1{
         height: 65vh;
     }
 
+    nav{
+        padding-bottom: 3rem;
+    }
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
